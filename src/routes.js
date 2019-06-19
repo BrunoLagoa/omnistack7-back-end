@@ -13,4 +13,8 @@ routes.post("/posts", upload.single("image"), PostController.store);
 
 routes.post("/posts/:id/like", LikeController.store);
 
+routes.get("/", function(req, res) {
+  res.send("api start");
+});
+
 module.exports = routes;
