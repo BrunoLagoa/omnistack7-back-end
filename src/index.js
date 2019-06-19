@@ -33,4 +33,4 @@ app.use(
 
 app.use(require("./routes"));
 
-server.listen(3000 | process.env.PORT);
+server.listen(3333 | process.env.PORT);
